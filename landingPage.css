@@ -47,6 +47,11 @@ nav {
 .feature {
   display: flex;
   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center;
 }
 
 .feature__item {
@@ -61,10 +66,20 @@ nav {
 
 .feature__item .section__title {
   margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center;
 }
 
 .feature__item p {
   margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center;
 }
 
 /* link - key section css */
